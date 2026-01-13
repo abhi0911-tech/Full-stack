@@ -8,6 +8,8 @@ import Bookmarks from './pages/Bookmarks';
 import MovieDetail from './pages/MovieDetail';
 import TVSeriesDetail from './pages/TVSeriesDetail';
 import Search from './pages/Search';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
             <Route path="/tv-series/:id" element={<TVSeriesDetail />} />
             <Route path="/bookmarks" element={<Bookmarks />} />
             <Route path="/search" element={<Search />} />
+             <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+
           </Routes>
         </div>
       </div>

@@ -38,6 +38,12 @@ export default function Navbar() {
               <span>📌</span>
               Bookmarks
             </Link>
+             <Link
+              to="/login"
+              className="text-gray-300 hover:text-white transition-colors font-medium flex items-center gap-2"
+            >
+              Login
+            </Link>
           </div>
         </div>
       </div>
